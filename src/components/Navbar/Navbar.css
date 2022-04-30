@@ -1,0 +1,27 @@
+.navbar {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding-left: 15px;
+}
+
+.rose_logo {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding-right: 25px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
