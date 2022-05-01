@@ -1,0 +1,46 @@
+.albums_section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+}
+
+.album_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.album_info > img {
+    border-radius: 20px;
+}
+
+.album_info:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.text_info {
+    margin: 0 60px;
+    width: 422px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text_info > h1, h2 {
+    color: white;
+}
+
+.more_info_btn {
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    background-color: white;
+    padding: 7px 15px;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    margin-top: 20px;
+    font-weight: bold;
+}
