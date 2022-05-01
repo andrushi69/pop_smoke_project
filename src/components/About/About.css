@@ -1,0 +1,19 @@
+.about_container {
+}
+
+.about {
+  display: flex;
+  padding: 100px;
+  justify-content: space-between;
+}
+
+.pop_img {
+  width: 350px;
+  border-radius: 20px;
+}
+
+span {
+  color: white;
+  display: flex;
+  max-width: 50%;
+}

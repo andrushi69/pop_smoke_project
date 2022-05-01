@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact_info_header {
+  color: white;
+}
+.contact_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.rose_footer {
+  width: 200px;
+  border-radius: 50%;
+}
+.footer_link {
+  text-decoration: none;
+  color: white;
+}
+.facebook_logo {
+  fill: white;
+}
