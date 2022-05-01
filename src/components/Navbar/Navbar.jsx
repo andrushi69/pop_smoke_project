@@ -9,7 +9,7 @@ const Navbar = () => {
         <img className="rose_logo" src="../images/rose.png" alt="" />
       </Link>
       <div className="nav-links">
-        <Link className="nav-link" to="/bio">
+        <Link className="nav-link" to="/about">
           Pop's Life
         </Link>
         <Link className="nav-link" to="/albums">
